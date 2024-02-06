@@ -13,15 +13,24 @@
     <link rel="stylesheet" href="bootstrap441/css/bootstrap.css" >
     <link rel="stylesheet" href="css/style.css" >
 
-    <title>Land-Eko - Главная!</title>
+    <title>Land-Eko Ландшафтный дизайн и озеленение</title>
     <script src="https://kit.fontawesome.com/8bc00588c9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
+<header class="fixed-top">
     <div class="header-top">
         <div class="container">
-            <div class="d-sm-flex justify-content-between">
-                <div class="quick-contact-info">
+            <div class="logo-wrap">
+                <a class="main-logo" href="/">
+                    <img src="img/logo7.png" alt="land-eko.ru">
+                </a>
+            </div>
+            <div class="d-sm-flex justify-content-end">
+                <div class="d-flex flex-row-reverse quick-social-info quick-social-info_right">
+                    <a class="insta" href=""><i class="fab fa-instagram-square"></i></a>
+                    <a class="vk" href=""><i class="fab fa-vk"></i></a>
+                </div>
+                <div class="quick-contact-info quick-contact-info_right">
                     <div class="quick-contact-info__tel">
                         тел: <span>+7 (904) 609 - 90 - 89</span>
                     </div>
@@ -29,78 +38,101 @@
                         почта: <a href="mailto:neva-aqua@mail.ru"> neva-aqua@mail.ru</a>
                     </div>
                 </div>
-                <div class="quick-social-info">
-                    <a class="insta" href=""><i class="fab fa-instagram-square"></i></a>
-                    <a class="vk" href=""><i class="fab fa-vk"></i></a>
-                </div>
             </div>
         </div>
     </div>
+    <div class="container-fluid wrap-background">
+        <div class="container">
 
-    <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand" href="#">ЛОГО</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <nav class="navbar navbar-expand-lg navbar-light">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <!-- активный пункт меню
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <!--
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="">
+                    ЛОГО
+                </a>
+                -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- активный пункт меню
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                        -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">проектирование</a>
                         </li>
-                    -->
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">о нас</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">портфолио</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            услуги
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">ландшафтный дизайн</a>
-                            <a class="dropdown-item" href="#">ландшафтное строительство</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">проектирование</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">водоемы</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">продуктивные лесополосы</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">контакты</a>
-                    </li>
-                    <!--  выпадающй список
                         <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                водоемы
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">декоративные водоемы</a>
+                                <a class="dropdown-item" href="#">плавательные водоемы</a>
+                                <a class="dropdown-item" href="#">пруды для рыбы</a>
+                                <a class="dropdown-item" href="#">фильтрация</a>
+                                <a class="dropdown-item" href="#">обслуживание водоемов</a>
+                                
+                            </div>
                         </li>
-                    -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ландшафтный дизайн
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">озеленение</a>
+                                <a class="dropdown-item" href="#">водопады</a>
+                                <a class="dropdown-item" href="#">ручьи</a>
+                                <a class="dropdown-item" href="#">фонтаны</a>
+                                <a class="dropdown-item" href="#">альпийские горки</a>
+                                <a class="dropdown-item" href="#">рокарии</a>
+                                <a class="dropdown-item" href="#">газоны</a>
+                                <a class="dropdown-item" href="#">каскады</a>
+                                
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">автополив</a>
+                        </li>
 
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">портфолио</a>
+                        </li>
+          
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">контакты</a>
+                        </li>
+                        <!--  выпадающй список
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                            </li>
+                        -->
 
-            </div>
-        </nav>
+                    </ul>
+
+                </div>
+            </nav>
+
+        </div>
     </div>
 </header>
+<!--
 <section class="delimiter"></section>
+-->
+
 <div class="container-fluid slider-main">
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -109,26 +141,61 @@
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <a href="/model.html"> <img src="http://placehold.it/1903x700" class="d-block w-100" alt="..."></a>
+            <div class="carousel-item active" data-interval="50000" >
+                <a href="/model.html"> <img src="img/sl1.jpg" class="d-block w-100" alt="..."></a>
 
-                <div class="carousel-caption d-none d-md-block">
-                    <p>Первый слайд</p>
-                    <p>Это тестовый контент первого слайда.</p>
+                <div class="carousel-caption ">
+                    <div class="slider-main-text ">
+                        <h2>Land-Eko - ландшафт как произведение искусства</h2>
+                        <div class="slider-main-text__p-block d-none d-md-block">
+                            <h4>Успех нашей Студии основывается на следовании трём принципам ландшафтного дизайна:</h4>
+                            <div class="row">
+                                <i class="fas fa-leaf col-md-1"></i>
+                                <p class="col-md-11">наш профессионализм и творческий подход</p>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-leaf col-md-1"></i>
+                                <p class="col-md-11">внимание к пожеланиям заказчика</p>
+                            </div>
+
+                            <div class="row">
+                                <i class="fas fa-leaf col-md-1"></i>
+                                <p class="col-md-11">
+                                    использование и учёт природных характеристик участка: рельефа, освещённости,
+                                    климата, положения ...
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <a href="/model.html"> <img src="http://placehold.it/1903x700" class="d-block w-100" alt="..."></a>
-                <div class="carousel-caption d-none d-md-block">
-                    <p>Второй слайд</p>
-                    <p>Это тестовый контент второго слайда.</p>
+            <div class="carousel-item" data-interval="50000">
+                <a href="/model.html"> <img src="img/sl2.jpg" class="d-block w-100" alt="Создаём комфортные и выразительные ландшафты - изображение"></a>
+                <div class="carousel-caption">
+                    <div class="slider-main-text ">
+                        <h2>Создаём комфортные и выразительные ландшафты</h2>
+                        <div class="slider-main-text__p-block d-none d-md-block">
+                            <p>
+                                Критерии, которыми мы руководствуемся в своей работе – итоговым результатом
+                                всегда должна быть максимальное удобство  и эстетическое наслаждение владельцем
+                                своим садом и приусадебным владением,какой бы сложной не была задача.
+
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <a href="/model.html"> <img src="http://placehold.it/1903x700" class="d-block w-100" alt="..."></a>
-                <div class="carousel-caption d-none d-md-block">
-                    <p>Третий слайд</p>
-                    <p>Это тестовый контент третьего слайда слайда.</p>
+            <div class="carousel-item" data-interval="50000">
+                <a href="/model.html"> <img src="img/sl3.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption ">
+                    <div class="slider-main-text d-flex justify-content-center">
+                        <div class=" align-self-center">
+                            <h2>Базовые принципы дизайна участка</h2>
+                            <!--<div class="slider-main-text__p-block d-none d-md-block"></div>-->
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -142,46 +209,174 @@
         </a>
     </div>
 </div>
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <div class="single-post clearfix">
-                <h2><a href="">Ландшафт как произведение искусства</a></h2>
-                <p>Но на тропе никто не появился. За всю дорогу до впадения ручья в озеро через тропу перепорхнул один рябчик, да пара поползней , перелетая с дерева на дерево, несколько минут суетились впереди меня, оглашая лес своим писком. Наконец, впереди, сквозь деревья показалась гладь таёжного озера.
 
-                    "Всё-таки дошёл, – улыбнулся я сам себе. – Точнее, дополз".
+<section class="section-one not-delimiter">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="single-post clearfix">
+                    <h3>Наши услуги</h3>
 
-                    Было ясно, что тропа вела на другую сторону ручья как раз туда, где находилась загадочная избушка с не менее загадочным дедушкой. Я перешёл ручей и, выйдя на чистое место, увидел крышу покосившегося строения.
+                    <!-- <a href="#" class="link-more  btn btn-primary btn-sm pull-right float-right" role="button" aria-pressed="true">Подробнее</a>    -->
 
-                    "Интересно, как меня примет её полусвихнувшийся хозяин? – мелькнуло в сознании. – Собственно, какой бы приём ни был, он всё равно для меня хорош. Потому что выгнать того, кто плёлся к нему сквозь тайгу и горы почти два месяца, человек вряд ли сможет. Во-первых – не за что, и, во-вторых, он же не зверь, а такой же, как и я, двуногий. К тому же мой визит не просто так. Я званый гость, значит, отношение ко мне должно быть вполне нормальным".</p>
-                    <p>– Ты считаешь, что если тебе удалось скрыть от меня ход своих мыслей, то я не догадываюсь, о чём ты сейчас думаешь? – повернул ко мне сатанинское лицо лесовичок, одной рукой открывая входную дверь своих апартаментов. – Давай, заходи, сегодня ты мой гость. Посмотришь, как я живу. Вид у тебя, конечно, паскудный, но я не гордый, как-нибудь перетерплю.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="block-uslugi col-md-3 col-6">
+                <a href="" title="Проектирование Ландшафтого Дизайна" class="block-uslugi__img">
+                    <img src="img/1.jpg"alt="Проектирование">
+                </a>
+                <a href="" title="Проектирование Ландшафтого Дизайна" class="block-uslugi__title">
+                    <h4>
+                        Проектирование
+                    </h4>
+                </a>
+            </div>
+            <div class="block-uslugi col-md-3 col-6">
+                <a href="" title="Создание водоемеов и прудов" class="block-uslugi__img">
+                    <img src="img/2.jpg"alt="Водоемы">
+                </a>
+                <a href="" title="Создание водоемеов и прудов" class="block-uslugi__title">
+                    <h4>
+                       Водоемы
+                    </h4>
+                </a>
+            </div>
+            <div class="block-uslugi col-md-3 col-6">
+                <a href="" title="Фруктовые,Ореховые малоуходные Сады" class="block-uslugi__img">
+                    <img src="img/3-1.jpg"alt="Сады">
+                </a>
+                <a href="" title="Фруктовые,Ореховые малоуходные Сады" class="block-uslugi__title">
+                    <h4>
+                        Сады
+                    </h4>
+                </a>
+            </div>
+            <div class="block-uslugi col-md-3 col-6">
+                <a href="" title="Ландшафтный дизайн участка под ключ" class="block-uslugi__img">
+                    <img src="img/4.jpg"alt="Комплексное озеленение">
+                </a>
+                <a href="" title="Ландшафтный дизайн участка под ключ" class="block-uslugi__title">
+                    <h4>
+                        Комплексное озеленение
+                    </h4>
+                </a>
+            </div>
 
-                        – Понимаешь, – возразил я дедуле, – тут дело не в тебе, а в доме. Я отвык спать под крышей. Боюсь, что всю ночь пролежу с открытыми глазами.
+        </div>
+        <div class="row">
 
-                        – Ты что – сова? Если не будешь, как она, ухать, тогда всё в норме. Пойдём, поможешь мне уху сварить, сегодня как-ни-как у нас встреча, надо отметить. А на меня не обижайся: я давно свихнулся, сам понимаешь, живу один, людей вижу редко, вот разум и помутнел.
+            <div class="block-uslugi col-md-3 col-6">
+                <a href="" title="Альпинарии, Рокарии" class="block-uslugi__img">
+                    <img src="img/5.jpg"alt="Ландшафтный дизайн участка под ключ">
+                </a>
+                <a href="" title="Альпинарии, Рокарии" class="block-uslugi__title">
+                    <h4>
+                        Ландшафтный дизайн участка под ключ
+                    </h4>
+                </a>
+            </div>
+            <div class="block-uslugi col-md-3 col-6">
+                <a href="" title="Геопластика -создание рельефа" class="block-uslugi__img">
+                    <img src="img/6.jpg"alt="Геопластика -создание рельефа">
+                </a>
+                <a href="" title="Геопластика -создание рельефа" class="block-uslugi__title">
+                    <h4>
+                        Геопластика -создание рельефа
+                    </h4>
+                </a>
+            </div>
+            <div class="block-uslugi col-md-3 col-6">
+                <a href="" title="Комплексное озеленение" class="block-uslugi__img">
+                    <img src="img/7.jpg"alt="Живая изгородь, Цветущая изгородь">
+                </a>
+                <a href="" title="Комплексное озеленение" class="block-uslugi__title">
+                    <h4>
+                        Живая изгородь, Цветущая изгородь
+                    </h4>
+                </a>
+            </div>
+            <div class="block-uslugi col-md-3 col-6">
+                <a href="" title="Живая изгородь, Цветущая изгородь" class="block-uslugi__img">
+                    <img src="img/8.jpg"alt="Альпинарии, Рокарии">
+                </a>
+                <a href="" title="Живая изгородь, Цветущая изгородь" class="block-uslugi__title">
+                    <h4>
+                        Альпинарии, Рокарии
+                    </h4>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="section-two not-delimiter">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="single-post clearfix">
+                    <h3>Базовые принципы дизайна участка</h3>
+                    <h4>Наши клиенты – наши друзья</h4>
+                    <p>
+                        Пожелания заказчика, его индивидуальные предпочтения и членов его семьи, потребности
+                        в эксплуатации участка (водоёма, парка, пруда и т.д.) учитываются как один из базовых
+                        компонентов при проектировании и создании итогового ландшафта. Какой бы ни был
+                        объект - мы создаём его для максимальной гармоничного пребывания в нём и
+                        использования его владельцем.
                     </p>
-                <a href="#" class="link-more  btn btn-primary btn-sm pull-right float-right" role="button" aria-pressed="true">Подробнее</a>
+                    <h4>Творческий проффесионализм</h4>
+                    <p>
+                        Следующий наиважнейший фактор успеха в нашем непростом, но интереснейшем деле –
+                        это наш профессионализм, основанный на полученном опыте в решении сложных задач,
+                        постоянном совершенствовании своих знаний, систематическое прохождение
+                        специальных программ и, конечно же, творческий подход.
+                    </p>
+                    <h4>Строим на века</h4>
+                    <p>
+                        При всей креативности подхода к созданию ландшафта мы неукоснительно соблюдаем
+                        общестроительные нормы и правила (СНИПы, ГОСТы, отраслевые и международные
+                        строительные стандарты). Потому что функциональный и красивый ландшафт – это
+                        прежде всего надёжный и безопасный объект, эксплуатация которого в течение многих
+                        лет дарит только положительные эмоции.
+                    </p>
+                    <p>
+                        Это означает, что заказывая у нас услуги, при должном подходе сад будет цвети, газон
+                        сохранять свою изумрудную свежесть, грунт под дорожкой оставаться стабильным на
+                        протяжении всего периода эксплуатации, а пруд будет чистым и прозрачным.
+                    </p>
+                    <h4>Учимся у Природы</h4>
+                    <p>
+                        Живые компоненты ландшафта: сад, цветник, альпинарий, созданные нашей студией – это
+                        воплощение Рая на Земле. Мы проектируем его всегда таким образом, чтобы процесс
+                        цветения там был на протяжении всего вегетационного периода.
+                    </p>
+                    <p>
+                        Создание видов с минимальным уходом и большой эстетической привлекательностью –
+                        наша гордость.
+                    </p>
+                    <h4>Стиль – визитная карточка</h4>
+                    <p>
+                        Всегда проектируем и предлагаем заказчику воплотить ландшафт в стилистике наиболее
+                        соответствующем ему и его дому. Стиль всегда является отражением внутреннего мира,
+                        характера, жизненного опыта владельца участка, предпочтений его семьи. Сад
+                        выполненный в стиле всегда будет предметом восхищения гостей!
+                    </p>
 
+                    <!--<a href="#" class="link-more btn btn-primary btn-sm float-right" role="button" aria-pressed="true">Подробнее</a>-->
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <div class="single-post clearfix">
-                <h2><a href="">Создаем комфортные и выразительные ландшафты!</a></h2>
-                <p>Сказано – сделано. Я сходил в лес, подыскал для такого дела нужную мне сушину и вырубил с помощью своего уродливого топора нечто наподобие доски. Но доску сделал несколько необычную, с утолщениями на концах, чтобы появилось пространство, на которое дверь может открываться. Когда импровизированная доска была готова, я прикрепил её с помощью деревянных гвоздей к косяку и вставил в её проём свою, сложенную из кругляка дверь. Ограничитель получился неплохой. Он позволял войти и выйти из помещения и в то же время хорошо удерживал дверь на своём месте. Когда я заканчивал с дверью, резко упала температура и снова пошёл снег.</p>
-                <a href="#" class="link-more btn btn-primary btn-sm float-right" role="button" aria-pressed="true">Подробнее</a>
-            </div>
-        </div>
-    </div>
-</div>
+</section>
+
 <footer>
     <div class="container">
         <div class="d-flex justify-content-between">
             <div class="footer-menu">
-                <h3>Ландшафтный дизайн и озеленение</h3>
+                <h4>Ландшафтный дизайн и озеленение</h4>
                 <div class="d-flex justify-content-center">
                     <nav class="nav flex-column">
                         <a class="nav-link" href="#">посадка деревьев</a>
@@ -196,7 +391,7 @@
                 </div>
             </div>
             <div class="footer-menu">
-                <h3>Благоустройство (Ландшафтное строительство)</h3>
+                <h4>Благоустройство (Ландшафтное строительство)</h4>
                 <div class="d-flex justify-content-center">
                     <nav class="nav flex-column">
                         <a class="nav-link" href="#">покрытие, мощение</a>
@@ -204,9 +399,9 @@
                         <a class="nav-link" href="#">дренаж</a>
                     </nav>
                     <nav class="nav flex-column ">
-                        <a class="nav-link" href="#">зоны отдыха</a>
                         <a class="nav-link" href="#">беседки</a>
                         <a class="nav-link" href="#">барбекю</a>
+                        <a class="nav-link" href="#">зоны отдыха</a>
                     </nav>
                 </div>
             </div>
@@ -214,7 +409,11 @@
     </div>
     <div class="container">
         <div class="d-sm-flex justify-content-between">
-            <div class="quick-contact-info">
+            <div class="d-flex flex-row-reverse quick-social-info">
+                <a class="insta" href=""><i class="fab fa-instagram-square"></i></a>
+                <a class="vk" href=""><i class="fab fa-vk"></i></a>
+            </div>
+            <div class="quick-contact-info quick-contact-info_right">
                 <div class="quick-contact-info__tel">
                     тел: <span>+7 (904) 609 - 90 - 89</span>
                 </div>
@@ -222,16 +421,12 @@
                     почта: <a href="mailto:neva-aqua@mail.ru"> neva-aqua@mail.ru</a>
                 </div>
             </div>
-            <div class="quick-social-info">
-                <a class="insta" href=""><i class="fab fa-instagram-square"></i></a>
-                <a class="vk" href=""><i class="fab fa-vk"></i></a>
-            </div>
         </div>
     </div>
     <div class="container">
         <div class="d-flex justify-content-between">
-            <div class="copiright">2009 - 2020 © ООО "Озеленение" Все права защищены.</div>
-            <div class="Privacy Policy"> <a href="#">Политика конфиденциальности</a></div>
+            <div class="copiright">2009 - 2020 © Land-Eko Все права защищены.</div>
+            <div class="privacy-policy"> <a href="#">Политика конфиденциальности</a></div>
         </div>
     </div>
 
